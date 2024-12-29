@@ -35,7 +35,7 @@ export default function Nav() {
                             Blog
                     </li>
                     </Link>
-                    <Link href={"/GetStarted"}>
+                    <Link href={"/getstarted"}>
                     <li className="ml-10 text-red-700 uppercase font-bold  hover:text-red-800 shawdow shadow-sm shadow-red-700 rounded-3xl px-3 text-xl">
                             Get Started
                     </li>
@@ -75,7 +75,7 @@ export default function Nav() {
 
                 </li>
                 </Link>
-                <Link href={"/GetStarted"}>
+                <Link href={"/getstarted"}>
                     <li onClick={() => setMenu(false) }
                     className="mr-6 ml-4 text-red-700 mt-5 uppercase font-bold  hover:text-red-800 shawdow shadow-sm shadow-red-700 rounded-3xl px-3 text-xl">
                             Get Started

@@ -19,7 +19,7 @@ export default function Form(){
 
         
         console.log({response})
-        redirect('SignIn')
+        redirect('/signin')
 
     }
 

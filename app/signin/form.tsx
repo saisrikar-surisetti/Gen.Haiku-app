@@ -21,7 +21,7 @@ export default function FormLog(){
                 router.refresh();
             }
             else{   
-                redirect('/GetStarted')
+                redirect('/getstarted')
             }
         }
     

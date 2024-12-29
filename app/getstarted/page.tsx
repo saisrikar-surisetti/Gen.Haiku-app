@@ -24,9 +24,9 @@ export default async function GetStart() {
         <br/>
         <Form/>
     <br/>
-    <h1 className="text-center font-bold">Already have an account? Click <Link href="/SignIn" className="text-blue-400  hover:text-blue-200">here.</Link></h1>
+    <h1 className="text-center font-bold">Already have an account? Click <Link href="/signin" className="text-blue-400  hover:text-blue-200">here.</Link></h1>
     <br/>
-    <h1 className="text-center font-bold">Use Guest account! click <Link href="/home" className="text-blue-400  hover:text-blue-200">here.</Link></h1>
+    <h1 className="text-center font-bold">Use Guest account! click <Link href="/gallery" className="text-blue-400  hover:text-blue-200">here.</Link></h1>
      </div>
         </div>
     </div> 

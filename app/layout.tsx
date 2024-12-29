@@ -39,7 +39,7 @@ export default async function RootLayout({
           <div>
           {!!session && <Logout/>  
           }
-          {!session && <Link className=" hover:cursor-pointer float-right sm:mr-16 relative text-slate-400 font-bold  shadow-red-700 rounded-3xl px-3 hover:text-red-700" href={'/SignIn'}> Login </Link>}
+          {!session && <Link className=" hover:cursor-pointer float-right sm:mr-16 relative text-slate-400 font-bold  shadow-red-700 rounded-3xl px-3 hover:text-red-700" href={'/signin'}> Login </Link>}
              </div>
         
           </div>
