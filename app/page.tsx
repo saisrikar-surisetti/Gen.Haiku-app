@@ -1,5 +1,3 @@
-import Image from "next/image";
-import page from "/public/Home.png"
 
 export default function Home() {
   return (
@@ -24,10 +22,10 @@ export default function Home() {
   </div>
   <ul className="steps text-white steps-vertical">
   <li className="step  step-neutral">First navigate to the menu on the top right! </li>
-  <li className="step step-neutral">Signup to add your own haiku's or use the guest account to only view them!</li>
+  <li className="step step-neutral">Signup to add your own haiku&apos;s or use the guest account to only view them!</li>
   <li className="step step-neutral">After signing in, you will be redirected to the dashboard</li>
-  <li className="step step-neutral">Clicking "Create Haiku" will redirect you to a page where you can make your own!</li>
-  <li className="step step-neutral">Clicking "View Gallery will let you see everyones!</li>
+  <li className="step step-neutral">Clicking &quot;Create Haiku&quot; will redirect you to a page where you can make your own!</li>
+  <li className="step step-neutral">Clicking &quot;View Gallery&quot; will let you see everyones!</li>
   <li className="step step-error">Most importantly, when you post any, make sure they are good! Otherwise we will find you! 
     
     EX: You → 😨  ⁌ 🔫😂  ⃪ Us </li>

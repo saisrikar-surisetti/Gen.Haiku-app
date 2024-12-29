@@ -1,9 +1,8 @@
 import Link from "next/link";
-import { getServerSession } from "next-auth";
 import { GET} from "../api/auth/[...nextauth]/route"
 
 export default async function CREATE(){
-    const session = await getServerSession(GET)
+  
     console.log(GET)
 
     return(

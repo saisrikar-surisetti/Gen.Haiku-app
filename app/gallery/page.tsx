@@ -1,12 +1,10 @@
-import NextAuth from "next-auth";
-import CredentialsProvider from "next-auth/providers/credentials"
-import { compare } from "bcrypt";
+
 import { neon } from '@neondatabase/serverless';
 
 export default async function A() { 
     
-    const s = "ss"
-    const DATABASE_URL ='postgresql://neondb_owner:4EKaxhsMjn6O@ep-noisy-dew-a40jplai.us-east-1.aws.neon.tech/neondb?sslmode=require'      
+   
+ 
     const sql = neon(`${process.env.DATABASE_URL}`);
     const response = await sql('SELECT * FROM tb1 ',  );
     const user = response  

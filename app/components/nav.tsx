@@ -1,6 +1,5 @@
 'use client'
-import Image from "next/image";
-import Logo from "/public/Logo2.png"
+
 import Link from "next/link";
 import { useState } from "react";
 import {AiOutlineMenu, AiOutlineClose, AiOutlineInstagram, AiOutlineGithub, AiOutlineLinkedin} from "react-icons/ai"
