@@ -1,9 +1,9 @@
-"use client"
+'use client'
 import Image from "next/image";
 import Logo from "/public/Logo2.png"
 import Link from "next/link";
 import { useState } from "react";
-import {AiOutlineMenu, AiOutlineClose, AiOutlineInstagram, AiOutlineGithub, AiOutlineMail} from "react-icons/ai"
+import {AiOutlineMenu, AiOutlineClose, AiOutlineInstagram, AiOutlineGithub, AiOutlineLinkedin} from "react-icons/ai"
 
 
 export default function Nav() { 
@@ -13,38 +13,30 @@ export default function Nav() {
         setMenu(!mmenu);
     }   
   return ( 
-    <nav className=" w-full bg-black  h-20 shadow-xl relative">
+    <nav className=" w-full bg-black  h-20 shadow-xl ">
         <div className="flex justify-between items-center h-full w-full  px-5 2xl:px-16">
-            <div>
-                <Link href={"/"}>
-                <Image 
-                src={Logo}
-                alt="Logo"
-                width="165"
-                height="55"
-                className="cursor-pointer"
-                />
-                </Link>
-            </div>
+        <Link href={'/'}> 
+        <h1 className=" px-3 shadow-stone-300   rounded-3xl font-thin text-red-700  text-center text-5xl md:text-9xl "> Gen.Haiku </h1>
+        </Link>
             <div className="text-white">
                 <ul className="hidden sm:flex">
                     <Link href={"/about"}>
                     <li className="ml-10 uppercase font-bold hover:text-red-700 text-xl">
-                        why us
+                        About me
                     </li>
                     </Link>
-                    <Link href={"/about"}>
+                    <Link href={"/resume"}>
                     <li className="ml-10 uppercase font-bold hover:text-red-700  text-xl">
-                        contacts
+                        Resume
                     </li  >
                     </Link>
-                    <Link href={"/about"}>
+                    <Link href={"https://www.youtube.com/watch?v=xvFZjo5PgG0"}>
                     <li className="ml-10 uppercase font-bold hover:text-red-700  text-xl">
                             Blog
                     </li>
                     </Link>
                     <Link href={"/GetStarted"}>
-                    <li className="ml-10 uppercase font-bold  hover:text-red-700 border p-0 border-b-4 border-red-800 text-xl">
+                    <li className="ml-10 text-red-700 uppercase font-bold  hover:text-red-800 shawdow shadow-sm shadow-red-700 rounded-3xl px-3 text-xl">
                             Get Started
                     </li>
                     </Link>
@@ -55,8 +47,8 @@ export default function Nav() {
             </div>
         </div>
         <div className={
-            mmenu ? "fixed left-0 top-0 w-[65%] sm:hidden h-screen bg-zinc-900 p-10 ease-in duration-500" :
-            "fixed left-[-100%] top-0 w-[65%] sm:hidden h-screen bg-zinc-900 p-10 ease-in duration-500" 
+            mmenu ? "fixed left-0 top-0 w-[65%] sm:hidden h-screen bg-opacity-100 bg-black p-10 ease-in duration-500" :
+            "fixed left-[-100%] top-0 w-[65%] sm:hidden h-screen bg-opacity-100  bg-black  p-10 ease-in duration-100" 
         }>
             <div className="flex w-full items-center justify-end">
                 <div onClick={handleNav} className="cursor-pointer">
@@ -65,19 +57,19 @@ export default function Nav() {
               </div>
               <div className="flex-col py-4">
                 <ul>
-                <Link href="/">
+                <Link href="/resume">
                 <li onClick={() => setMenu(false)}
-                    className=" py-4 cursor-pointer"> Why us
+                    className=" py-4 cursor-pointer"> Resume
 
                 </li>
                 </Link>
-                <Link href="/">
+                <Link href="/about">
                 <li onClick={() => setMenu(false)}
-                    className=" py-4 cursor-pointer"> Contacts
+                    className=" py-4 cursor-pointer"> About me
 
                 </li>
                 </Link>
-                <Link href="/">
+                <Link href="https://www.youtube.com/watch?v=xvFZjo5PgG0">
                 <li onClick={() => setMenu(false)}
                     className=" py-4 cursor-pointer"> Blog
 
@@ -85,7 +77,7 @@ export default function Nav() {
                 </Link>
                 <Link href={"/GetStarted"}>
                     <li onClick={() => setMenu(false) }
-                    className="ml-10 uppercase font-bold  hover:text-red-700 border p-0 border-b-4 border-red-800 text-xl">
+                    className="mr-6 ml-4 text-red-700 mt-5 uppercase font-bold  hover:text-red-800 shawdow shadow-sm shadow-red-700 rounded-3xl px-3 text-xl">
                             Get Started
                     </li>
                     </Link>
@@ -95,21 +87,13 @@ export default function Nav() {
 
               </div>
               <div className="flex flex-row pt-10 justify-around items-center">
-                <AiOutlineInstagram size={30} className="cursor-pointer"/>
-                <AiOutlineGithub size={30} className="cursor-pointer"/>
-                <AiOutlineMail size={30} className="cursor-pointer"/>
+                <Link href="https://www.instagram.com/saii.ca?igsh=MXdpd2xhY2VrcTI3MQ%3D%3D&utm_source=qr"> <AiOutlineInstagram size={30} /> </Link>
+                <Link href="https://github.com/saisrikar-surisetti"> <AiOutlineGithub size={30} /></Link>
+                <Link href="https://www.linkedin.com/in/saisrikar-surisetti-8a182b27b/"> <AiOutlineLinkedin size={30} /> </Link>
 
               </div>
               <div className="pt-10">
-                <Link href={"/"}>
-                <Image 
-                src={Logo}
-                alt="Logo"
-                width="165"
-                height="55"
-                className="cursor-pointer"
-                />
-                </Link>
+              <h1 className="  rounded-3xl shadow-red-700 font-thin text-red-700  text-center text-4xl "> Gen.Haiku </h1>
             </div>
 
         </div>
