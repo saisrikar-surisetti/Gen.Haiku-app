@@ -19,7 +19,7 @@ export default function ABOUTPAGE(){
 <br/>
     <h1 className="text-center font-bold"> Hi my name is Saisrikar Surisetti, but you can call me Sai.</h1>
     <br/>
-    <h1 className="text-center text-sm "> I am currently an undergraduate student at the University of Waterloo pursuing Pure Mathamatics and Statistics. Growing up, I played AAA hockey, gamed professionally, and represented Canada for robotics. Now in university, I have found interest in badminton and poker. If you are interested in either, hit me up!  
+    <h1 className="text-center text-sm "> I am currently an undergraduate student pursuing Pure Mathamatics and Statistics at the University of Waterloo. Growing up, I played AAA hockey, gamed professionally, and represented Canada for robotics. Now in university, I have found interests in badminton and poker. If you are interested in either, hit me up!  
     </h1>
     <h1> In the future, I hope to do research in any quantitative/analytical field but currently I have an interest in the fields of generative ai and computer vision. If you have similar interests or want to chat, feel free to shoot me a message on Linkedin!  </h1>
     <div className="flex flex-row pt-10 gap-3">
