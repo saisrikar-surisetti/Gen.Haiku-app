@@ -24,7 +24,7 @@ export default async function SignIn() {
         <br/>
     <FormLog/>
     <br/> 
-    <h1 className="text-center font-bold">Dont have an account? Click <Link href="/GetStarted" className="text-blue-400  hover:text-blue-200">here.</Link></h1>
+    <h1 className="text-center font-bold">Dont have an account? Click <Link href="/grtstarted" className="text-blue-400  hover:text-blue-200">here.</Link></h1>
     <br/>
     <h1 className="text-center font-bold">Use Guest account to view gallery! Click <Link href="/gallery" className="text-blue-400  hover:text-blue-200">here.</Link></h1>
      </div>
