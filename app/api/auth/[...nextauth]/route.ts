@@ -9,7 +9,7 @@ const handler = NextAuth({
   
   },
   pages:{
-    signIn: '/SignIn'
+    signIn: '/signin'
   },
     providers: [
         CredentialsProvider({
@@ -48,7 +48,7 @@ const handler = NextAuth({
 
         }),
     ],
-    secret: process.env.SECRET, 
+    secret: "9KN+Ijm9am6xizT8pAeQY2dWU5HGxAmNsNkqE/ITbRQ="
 });
 
 export {handler as GET, handler as POST};

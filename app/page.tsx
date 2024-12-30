@@ -2,7 +2,7 @@
 export default function Home() {
   return (
     
-    <div className='m-4 grid items-center w-screen overflow-x-clip overflow-y-clip'>
+    <div className='m-4 grid items-center w-full overflow-x-clip overflow-y-clip'>
       <div className="min-h-[600px]  bg-black p-10 rounded-3xl text-ceter" >
       <h1 className="  font-extrabold text-gray-500 text-5xl md:text-9xl"> Supercharge communication,</h1>
       <br/> 

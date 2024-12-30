@@ -13,9 +13,9 @@ export default function Nav() {
     }   
   return ( 
     <nav className=" w-full bg-black  h-20 shadow-xl ">
-        <div className="flex justify-between items-center h-full w-full  px-5 2xl:px-16">
+        <div className="flex justify-between items-center h-full w-screen  px-5 2xl:px-16">
         <Link href={'/'}> 
-        <h1 className=" px-3 shadow-stone-300   rounded-3xl font-thin text-red-700  text-center text-5xl md:text-9xl "> Gen.Haiku </h1>
+        <h1 className=" px-3 shadow-stone-300   rounded-3xl font-thin text-red-700  text-center text-4xl md:text-8xl "> Gen.Haiku </h1>
         </Link>
             <div className="text-white">
                 <ul className="hidden sm:flex">
