@@ -19,9 +19,9 @@ export default function ABOUTPAGE(){
 <br/>
     <h1 className="text-center font-bold"> Hi my name is Saisrikar Surisetti, but you can call me Sai.</h1>
     <br/>
-    <h1 className="text-center text-sm "> I am currently an undergraduate student at the University of Waterloo planning on pursuing Pure Mathamatics and Statistics. Growning up, I played AAA hockey, played games professionally, and represented Canada for robotics but now in university I have found intrest in badminton and poker. If you are intrested in either, hit me up!  
+    <h1 className="text-center text-sm "> I am currently an undergraduate student at the University of Waterloo pursuing Pure Mathamatics and Statistics. Growing up, I played AAA hockey, gamed professionally, and represented Canada for robotics. Now in university, I have found interest in badminton and poker. If you are interested in either, hit me up!  
     </h1>
-    <h1> In the future, I hope to do research in any quantatative/analytical feild but currently I have an intrest in the fields of generative ai and computer vision. If you have simular intrests or want to chat, feel free to shoot me a message on Linkedin!  </h1>
+    <h1> In the future, I hope to do research in any quantitative/analytical field but currently I have an interest in the fields of generative ai and computer vision. If you have similar interests or want to chat, feel free to shoot me a message on Linkedin!  </h1>
     <div className="flex flex-row pt-10 gap-3">
                 <Link href="https://www.instagram.com/saii.ca?igsh=MXdpd2xhY2VrcTI3MQ%3D%3D&utm_source=qr"> <AiOutlineInstagram size={30} /> </Link>
                 <Link href="https://github.com/saisrikar-surisetti"> <AiOutlineGithub size={30} /></Link>
