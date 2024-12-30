@@ -18,7 +18,8 @@ export default async function SignIn() {
     <br/> 
     <br/> 
     <br/> 
-    <div className=" rounded-lg items-center "> <div className=" resize component p-6 px    -10 bg-red-700 rounded-lg max-w-[600px] max-h-[600px]justify-center"> 
+    <div className=" rounded-lg items-center "> 
+        <div className=" resize component p-6 px-10 bg-red-700 rounded-lg max-w-[600px] max-h-[600px]justify-center"> 
         < h1 className="  text-white  text-center  text-5xl font-bold "> Login </h1> 
         <br/>
     <FormLog/>
